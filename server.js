@@ -5,7 +5,7 @@ const port = 8080;
 const server = http.createServer((req, res)=> {
 	res.statusCode = 200;
 	res.setHeader('ContentType', 'text/plain');
-	res.end('Bonjour bienvenue sur Matcha 9:10');
+	res.end('Bonjour bienvenue sur Matcha');
 });
 
 
